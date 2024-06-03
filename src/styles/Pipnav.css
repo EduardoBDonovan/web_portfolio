@@ -1,0 +1,47 @@
+:root {
+  --oneGreen: #00ee00;
+  --twoGreen: #008e00;
+  --threeGreen: #005f00;
+  --fourGreen: #002f00;
+  --black: #000000;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.col {
+  text-align: center;
+  border-bottom: 2px solid var(--twoGreen);
+}
+
+.navbar a {
+  margin: 0;
+  height: 100%;
+  color: var(--oneGreen);
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.navbar a:hover {
+  text-shadow: 0 0 2px #00ee00, 0 0 2px #00ee00, 0 0 2px #00ee00,
+    0 0 2px #00ee00, 0 0 2px #00ee00, 0 0 2px #00ee00;
+  color: var(--oneGreen);
+}
+
+.navbar a.active {
+  text-shadow: 0 0 2px #00ee00, 0 0 2px #00ee00, 0 0 2px #00ee00,
+    0 0 2px #00ee00, 0 0 2px #00ee00, 0 0 2px #00ee00;
+  color: var(--oneGreen);
+}
+
+.navbar .col.active {
+  border-bottom: none;
+  border-left: 2px solid var(--twoGreen);
+  border-right: 2px solid var(--twoGreen);
+}
